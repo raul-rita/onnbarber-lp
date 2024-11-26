@@ -1,6 +1,6 @@
-import Hero from "./sections/HeroSection"
-import Sobre from "./sections/Sobre"
 import GlobalStyles from "./styles/GlobalStyles"
+import Hero from "./sections/HeroSection/Hero"
+import About from "./sections/About/About"
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <GlobalStyles />
       <Hero />
-      <Sobre />
+      <About />
     </>
   )
 }
