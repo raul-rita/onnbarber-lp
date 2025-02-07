@@ -1,12 +1,14 @@
 import styled from "styled-components";
-import { colors } from "../styles/variables";
+import { colors, spacing } from "../styles/variables";
 
-export const DarkText = styled.p`
-  font-size: 1.25rem;
+export const DarkText = styled.p `
+  font-size: 1.rem;
   color: ${colors.black};
+  text-align: left;
+  /* margin-bottom: ${spacing.small}; */
 `;
 
-export const WhiteText = styled.p`
-  font-size: 1.25rem;
+export const WhiteText = styled.p `
+  font-size: 1rem;
   color: ${colors.white};
 `;
