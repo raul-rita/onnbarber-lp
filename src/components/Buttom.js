@@ -5,6 +5,7 @@ export const Buttom = styled.button`
   padding: ${spacing.small};
   font-size: ${fonts.principal};
   font-weight: 600;
+  text-transform: uppercase;
   color: ${colors.white};
   background-color: ${colors.primary};
   border: none;
